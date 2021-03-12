@@ -32,8 +32,7 @@
 				$body.removeClass('is-loading');
 			});
 
-		// Fix: Placeholder polyfill.
-			$('form').placeholder();
+	
 
 		// Prioritize "important" elements on mobile.
 			skel.on('+mobile -mobile', function() {
